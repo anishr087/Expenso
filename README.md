@@ -10,7 +10,6 @@ A modern AI-powered expense and budget tracking app built with Next.js and Tailw
 2. ⚙️ Tech Stack  
 3. 🔧 Features  
 4. 🛠️ Setup & Usage  
-5. 📝 License  
 
 ---
 
