@@ -56,7 +56,7 @@ Make sure you have the following installed:
 Clone the repository and install dependencies and also add a .env file:
 
 ```bash
-git clone https://github.com/your-username/expenso.git
+git clone https://github.com/anishr087/expenso.git
 cd expenso
 npm install
 npm run dev
