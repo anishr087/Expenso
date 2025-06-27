@@ -1,52 +1,50 @@
 # Expenso
 
-A modern AI-powered financial tracker and advisor built with Next.js, TypeScript, and Tailwind CSS.
+A modern AI-powered expense and budget tracking app built with Next.js and Tailwind CSS.
 
 ---
 
 ## 📋 Table of Contents
 
-1. 🤖 [Introduction](#introduction)  
-2. ⚙️ [Tech Stack](#tech-stack)  
-3. 🔋 [Features](#features)  
-4. 🤸 [Quick Start](#quick-start)  
-5. 🕸️ [Project Structure](#project-structure)  
-6. 🚀 [More](#more)
+1. 🚀 Introduction  
+2. ⚙️ Tech Stack  
+3. 🔧 Features  
+4. 🛠️ Setup & Usage  
+5. 📝 License  
 
 ---
 
-## 🤖 Introduction
+## 🚀 Introduction
 
-**Expenso** is a financial management tool that allows users to track their income, expenses, and budgets, and receive personalized financial advice powered by OpenAI’s GPT model.
-
-This project demonstrates how to build a full-stack AI-enhanced application using modern web technologies.
+**Expenso** helps users manage their income, expenses, and budgets with AI-powered financial insights. Built using modern web technologies, it’s responsive, fast, and efficient.
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Next.js** – React Framework for full-stack apps  
-- **TypeScript** – Strongly typed JavaScript  
+- **Next.js** – React framework for building web apps  
 - **Tailwind CSS** – Utility-first CSS framework  
-- **OpenAI API** – AI-driven financial insights  
-- **Clerk Auth** – User authentication and session management  
-- **PostgreSQL / Drizzle ORM** – Relational database and TypeScript-first ORM
+- **ShadCN UI** – Accessible and customizable UI components  
+- **OpenAI API** – For smart financial advice  
+- **Clerk** – Authentication and user management  
+- **Drizzle ORM** – Type-safe database access
 
 ---
 
-## 🔋 Features
+## 🔧 Features
 
-- 📥 **Income and Expense Tracking**: Record daily transactions.  
-- 🧮 **Budget Management**: Define budgets and monitor usage.  
-- 🧠 **AI-Powered Financial Advice**: Get smart suggestions based on your financial data.  
-- 📱 **Responsive UI**: Works seamlessly on desktop and mobile.  
-- 🔐 **User Authentication**: Secure login and session handling using Clerk.
+- 💰 Income & expense tracking  
+- 📊 Budget planning and overview  
+- 🧠 AI-powered financial advice  
+- 🔐 User authentication with Clerk  
+- 💡 Clean UI using ShadCN components  
+- 📱 Fully responsive design
 
 ---
 
-## 🤸 Quick Start
+## 🛠️ Setup & Usage
 
-### Prerequisites
+### Requirements
 
 Make sure you have the following installed:
 
@@ -54,8 +52,12 @@ Make sure you have the following installed:
 - [npm](https://www.npmjs.com/)
 - [Git](https://git-scm.com/)
 
-### Clone the Repository
+### Installation
+
+Clone the repository and install dependencies and also add a .env file:
 
 ```bash
 git clone https://github.com/your-username/expenso.git
 cd expenso
+npm install
+npm run dev
