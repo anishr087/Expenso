@@ -61,3 +61,5 @@ git clone https://github.com/your-username/expenso.git
 cd expenso
 npm install
 npm run dev
+```
+Open your browser and go to: http://localhost:3000 to view the website.
